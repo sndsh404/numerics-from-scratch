@@ -1,4 +1,4 @@
-"""numerics-notebook: math implemented from scratch in Python.
+"""numerics-from-scratch: math implemented from scratch in Python.
 
 Calculus, linear algebra, robotics, and machine learning. The rule of the
 package: numpy handles arrays and plotting data, but no library does the

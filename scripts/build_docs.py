@@ -29,7 +29,7 @@ def main() -> None:
 
     # Links like ../tests/test_x.py point outside the copied tree. On the
     # site they would 404, so point them at GitHub instead.
-    github = "https://github.com/sndsh404/numerics-notebook/blob/main/"
+    github = "https://github.com/sndsh404/numerics-from-scratch/blob/main/"
     for md in list((SRC / "notes").glob("*.md")) + list((SRC / "docs").glob("*.md")):
         text = md.read_text(encoding="utf-8")
         md.write_text(text.replace("](../", f"]({github}"), encoding="utf-8")

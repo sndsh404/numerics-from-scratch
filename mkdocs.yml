@@ -1,6 +1,6 @@
-site_name: numerics-notebook
+site_name: numerics-from-scratch
 site_description: "From-scratch math in Python: calculus, linear algebra, robotics, and machine learning."
-repo_url: https://github.com/sndsh404/numerics-notebook
+repo_url: https://github.com/sndsh404/numerics-from-scratch
 
 docs_dir: site_src
 site_dir: site

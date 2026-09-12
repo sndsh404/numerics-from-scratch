@@ -1,8 +1,8 @@
-# numerics-notebook
+# numerics-from-scratch
 
 From-scratch math in Python: calculus, linear algebra, robotics, and machine learning.
 
-[![tests](https://github.com/sndsh404/numerics-notebook/actions/workflows/tests.yml/badge.svg)](https://github.com/sndsh404/numerics-notebook/actions/workflows/tests.yml)
+[![tests](https://github.com/sndsh404/numerics-from-scratch/actions/workflows/tests.yml/badge.svg)](https://github.com/sndsh404/numerics-from-scratch/actions/workflows/tests.yml)
 
 A study repository that implements calculus, linear algebra, rigid body transforms, and basic machine learning from scratch in Python. The rule: numpy is allowed for arrays and plotting data, but no library does the math. No scipy, no sympy, no numpy.linalg, no numpy.gradient. Every derivative, integral, matrix solve, and gradient step is hand-written, and every module has pytest coverage.
 
@@ -125,8 +125,8 @@ Consecutive triples from two generators, 30000 points each, same 3D view. Xorshi
 ## Quickstart
 
 ```bash
-git clone https://github.com/sndsh404/numerics-notebook.git
-cd numerics-notebook
+git clone https://github.com/sndsh404/numerics-from-scratch.git
+cd numerics-from-scratch
 pip install -r requirements.txt
 python -m pytest tests/ -q
 python scripts/make_plots.py
